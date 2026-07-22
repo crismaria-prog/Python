@@ -1,12 +1,4 @@
-ID_da_Venda = int(input("Digite o ID da Venda: "))
-Data = input("Digite a data da venda: ")
-Vendedor = input("Digite o nome do vendedor: ")
-Cliente = input("Digite o nome do cliente: ")
-Produto = input("Digite o nome do produto: ")
-Categoria = input("Digite a Categoria: ")
-Quantidade = int(input("Digite a quantidade: "))
-Preco_unitario = float(input("Digite o preço unitário: R$ "))
-
+    
 
 
 # Valor total com desconto ou a prazo

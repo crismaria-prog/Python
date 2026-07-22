@@ -2,7 +2,7 @@
 print("\n" + "=" * 40)
 print("   CONVERSOR DE QUILOMETRAGEM  ")
 print("=" * 40)
-user_opcao = int(input("Conversor de medidas.\n\nDigite o número da opção desejada:\n1. Quilômetros e Milhas.\n2. Quilos e Libras.\n\nOpção escolhida foi (número apenas): "))
+user_opcao = int(input("Conversor de medidas. Digite o número da opção desejada:\n1. Quilômetros e Milhas.\n2. Quilos e Libras\nOpção escolhida foi (número apenas): "))
 
 # Caso usuário escolha conversão entre km/milhas
 
@@ -10,7 +10,7 @@ if user_opcao == 1:
 
     km = float(input("Número de quilômetros: "))
     milhas = float(input("Número de milhas: "))
-    km_milhas = int(input("Qual opção desejada?\n1. Quilômetros para milhas.\n2. Milhas para quilômetros.\n\nOpção desejada (número apenas): "))
+    km_milhas = int(input("Qual opção desejada?\n1. Quilômetros para milhas.\n2. Milhas para quilômetros.\nOpção desejada (número apenas): "))
 
     if km_milhas == 1:
         print(km, "quilômetro(s) convertido(s) para milhas é/são", km * 0.6213712,"milha(s).")

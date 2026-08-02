@@ -18,4 +18,4 @@ print(f"MARGEM: {MARGEM:.1%}")
 # só pode utilizar dentro de uma str 
 # Exemplo:
 
-print (f "FATURAMENTO: R${FATURAMENTO:,.2F}\n, CUSTO: {CUSTO}\n, LUCRO: {LUCRO}\n")
+print (f"FATURAMENTO: R${FATURAMENTO:,.2F}\n, CUSTO: {CUSTO:,.2F}\n, LUCRO: {LUCRO:,.2F}\n")
